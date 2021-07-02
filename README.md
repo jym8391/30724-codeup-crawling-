@@ -7,6 +7,8 @@ rating_calculating.py : 긁어온 레이팅 데이터를 기반으로 해당 문
 
 필요 라이브러리 : BeautifulSoup, selenium
 필요 브라우저  : 크롬 브라우저 설치(추후에 크롤링에 이용할 때 크롬 브라우저의 경로 필요)
+크롬 브라우저를 따로 설치해야하며, 자신이 가지고 있는 현재 크롬의 버전에 맞게 다운로드 해야함.
+
 
 설치 방법 : 터미널에 다음 명령어를 입력
 pip install beautifulsoup4 
