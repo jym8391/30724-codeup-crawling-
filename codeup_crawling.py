@@ -81,8 +81,8 @@ driver.get('https://codeup.kr/loginpage.php') #크롤링할 사이트 호출, �
 driver.implicitly_wait(3)
 
 login_x_path='/html/body/div[2]/form/input'
-driver.find_element_by_name('user_id').send_keys('jym8391')
-driver.find_element_by_name('password').send_keys('ym120100@')
+driver.find_element_by_name('user_id').send_keys('아이디')
+driver.find_element_by_name('password').send_keys('비밀번호')
 driver.find_element_by_xpath(login_x_path).click()
 
 time.sleep(1)

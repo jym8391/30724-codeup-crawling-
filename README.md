@@ -6,6 +6,7 @@ codeup_crawling.py : 코드업 사이트에서 채점 데이터를 긁어와 각
 rating_calculating.py : 긁어온 레이팅 데이터를 기반으로 해당 문제의 레이팅을 계산하는 코드
 
 필요 라이브러리 : BeautifulSoup, selenium
+필요 브라우저  : 크롬 브라우저 설치(추후에 크롤링에 이용할 때 크롬 브라우저의 경로 필요)
 
 설치 방법 : 터미널에 다음 명령어를 입력
 pip install beautifulsoup4 
