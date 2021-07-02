@@ -10,7 +10,7 @@ for i in range(1001,5000) :
     lines = f.readlines()  #불러온 데이터를 \n로 구분하여 리스트 형태로 반환
     f.close()
 
-    lines = list(map(int,lines))
+    lines = list(map(float,lines))
     lines.sort(reverse=True)  #원소들을 내림차순 정렬
     a = 1
     result = 0

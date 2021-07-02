@@ -164,7 +164,6 @@ for i in range(19,0,-1) :
 
                         else :  #url이 중복일 경우
                             t = False
-                            print("중복이므로 해당 페이지를 종료합니다.")
                             break
                         
                     if t : 
